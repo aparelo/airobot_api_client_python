@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling", "requests", "pydantic"]
+requires = ["hatchling", "requests", "pydantic", "aiohttp", "asyncio"]
 build-backend = "hatchling.build"
 
 [project]
