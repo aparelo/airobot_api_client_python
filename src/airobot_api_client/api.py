@@ -1,7 +1,7 @@
 import requests
 from urllib.parse import urljoin
 
-from models import ThermostatSettings, ThermostatStatus, ThermostatSettingsUpdateInput, ThermostatSettingsUpdateResponse
+from .models import ThermostatSettings, ThermostatStatus, ThermostatSettingsUpdateInput, ThermostatSettingsUpdateResponse
 
 
 class AirobotAPI:

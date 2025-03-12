@@ -1,6 +1,6 @@
 from aiohttp import ClientSession, BasicAuth
 
-from models import ThermostatSettings, ThermostatStatus, ThermostatSettingsUpdateInput, ThermostatSettingsUpdateResponse
+from .models import ThermostatSettings, ThermostatStatus, ThermostatSettingsUpdateInput, ThermostatSettingsUpdateResponse
 
 
 class AsyncAirobotAPI:
